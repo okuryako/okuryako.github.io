@@ -1,2 +1,2 @@
 # okuryako.github.io
-EvolovE Project Assignment
+EvolovE CIS300 Project Assignment
