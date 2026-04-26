@@ -18,45 +18,37 @@ body {
   color: var(--text);
 }
 
-/* HEADER */
 header {
   text-align: center;
-  padding: 60px 20px 30px;
+  padding: 50px 20px 20px;
 }
 
 header h1 {
   font-size: 3rem;
-  letter-spacing: 2px;
 }
 
 header p {
   color: var(--muted);
-  margin-top: 10px;
 }
 
-/* NAV */
 nav {
   display: flex;
   justify-content: center;
-  gap: 25px;
-  padding: 15px;
+  gap: 20px;
   background: var(--surface);
-  position: sticky;
-  top: 0;
+  padding: 15px;
 }
 
 nav a {
   color: var(--text);
   text-decoration: none;
   font-weight: bold;
-  transition: 0.3s;
 }
 
 nav a:hover {
   color: var(--accent);
 }
 
-/* HERO STYLE */
 .hero {
   height: 70vh;
   background: url("https://images.unsplash.com/photo-1517836357463-d25dfeac3438") center/cover;
@@ -64,8 +56,6 @@ nav a:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  text-align: center;
-  padding: 20px;
 }
 
 .hero h2 {
@@ -79,26 +69,16 @@ nav a:hover {
   padding: 12px 25px;
   background: var(--accent);
   color: black;
-  border: none;
-  font-weight: bold;
-  cursor: pointer;
-   display: inline-block;
   text-decoration: none;
-
+  display: inline-block;
 }
 
-/* SECTIONS */
 section {
-  padding: 60px 20px;
+  padding: 50px 20px;
   max-width: 1000px;
   margin: auto;
 }
 
-h2 {
-  margin-bottom: 20px;
-}
-
-/* PRODUCT GRID */
 .grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -108,25 +88,25 @@ h2 {
 .card {
   background: var(--surface);
   padding: 20px;
-  text-align: center;
 }
 
-/* TABLE */
+.card img {
+  width: 100%;
+}
+
 table {
   width: 100%;
-  margin-top: 20px;
   border-collapse: collapse;
 }
 
 th, td {
   border: 1px solid #333;
-  padding: 12px;
+  padding: 10px;
 }
 
-/* FOOTER */
 footer {
   text-align: center;
-  padding: 30px;
+  padding: 20px;
   background: var(--surface);
   color: var(--muted);
 }
